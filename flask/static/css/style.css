@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background: #333;
+}
+#head{
+    color:#FFFFFF;
+    font-size: 15px;
+    position:absolute;/*绝对定位*/
+    height: 10%;
+    width: 20%;
+    left: 0;
+    top: 0;
+    /*居中分布*/
+    /*background-color: blue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    color:#FFFFFF;
+    font-size: 40px;
+    position:absolute;/*绝对定位*/
+    height: 10%;
+    width: 40%;
+    left: 30%;
+    top: 0;
+    /*background-color: red;*/
+    /*居中分布*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#time{
+    position:absolute;/*绝对定位*/
+    height: 10%;
+    /*width: 30%;*/
+    right: 2%;
+    top: 5%;
+    font-size: 20px;
+    color: white;
+    /*background-color: green;*/
+}
+#center1{
+    position:absolute;/*绝对定位*/
+    height: 15%;
+    width: 40%;
+    left: 30%;
+    top: 10%;
+    /*background-color: blue;*/
+    color:white;
+}
+.num{
+    width: 25%;
+    float: left;
+    color: gold;
+    top:5%;
+    font-size: 15px;
+    /*居中分布*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt{
+    width: 25%;
+    top:5%;
+    float: left;
+    font-family: "幼圆";
+    font-size: 15px;
+    /*居中分布*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#center2{
+    position:absolute;/*绝对定位*/
+    height: 75%;
+    width: 40%;
+    left: 30%;
+    top: 25%;
+    /*background-color: purple;*/
+}
+#left1{
+    position:absolute;/*绝对定位*/
+    height: 20%;
+    width: 30%;
+    left: 0;
+    top: 10%;
+    /*background-color: pink;*/
+}
+#left2{
+    position:absolute;/*绝对定位*/
+    height: 20%;
+    width: 30%;
+    left: 0;
+    top: 30%;
+    /*background-color: yellow;*/
+}
+#left3{
+    position:absolute;/*绝对定位*/
+    height: 50%;
+    width: 30%;
+    left: 0;
+    top: 50%;
+    /*background-color: yellow;*/
+}
+#right1{
+    position:absolute;/*绝对定位*/
+    height: 45%;
+    width: 30%;
+    right: 0;
+    top: 10%;
+    /*background-color: brown;*/
+}
+#right2{
+    position:absolute;/*绝对定位*/
+    height: 45%;
+    width: 30%;
+    right: 0;
+    top: 55%;
+    /*background-color: blue;*/
+}
